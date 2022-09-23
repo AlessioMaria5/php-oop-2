@@ -1,6 +1,8 @@
 <?php 
-    
+    require_once __DIR__ . '/../../traits/Position.php';
 class Immobile {
+
+    use CommonAddress;
 
    public $status = "", $category = "", $type = ""; // STRINGS
    public $rooms = 1, $mq = 1; // INT
