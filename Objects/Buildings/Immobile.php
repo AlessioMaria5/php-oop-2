@@ -1,13 +1,10 @@
 <?php 
-
+    
 class Immobile {
 
-   public $type = "";
-   public $category = "";
-   public $status = "";
-   public $rooms = 1;
-   public $mq = 1;
-   public $garden = false , $pool = false;
+   public $status = "", $category = "", $type = ""; // STRINGS
+   public $rooms = 1, $mq = 1; // INT
+   public $garden = false , $pool = false; // BOOLEAN
 
    public function __construct($type,$category,$status,$rooms,$mq,$garden,$pool) 
    {
@@ -18,9 +15,10 @@ class Immobile {
        $this->mq = $mq;
        $this->rooms = $rooms;
        $this->garden = $garden;
-       $this->tpool = $pool;
+       $this->pool = $pool;
    }
     
+   
 }
 
 ?>

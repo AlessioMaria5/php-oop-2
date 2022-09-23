@@ -2,8 +2,8 @@
 
 trait Common {
 
-    private $Address  // long and leng result 
-    
+    public $Address;  // long and leng result 
+
 }
 
 ?>
