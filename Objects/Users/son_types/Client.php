@@ -12,6 +12,6 @@ class Client extends Users {
         parent::__construct($username,$name,$surname);
 
         $this->budget = $budget;
-        $this->oCF = $CF;
+        $this->CF = $CF;
     }
 }
